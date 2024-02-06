@@ -1,0 +1,46 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    gap: 10px;
+    /* border: 1px solid gray; */
+    padding-inline: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    background-color: azure;
+    
+    /* text-align: center; */
+}
+.countries{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    border-top: 3px dotted rgb(241, 187, 187);
+    border-bottom: 3px dotted rgb(241, 187, 187);
+    padding:3px 0;
+}
+input{
+    width: 98%;
+    outline: none;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+select{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    outline: none;
+}
