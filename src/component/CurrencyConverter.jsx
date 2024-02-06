@@ -40,7 +40,7 @@ const CurrencyCunverter = () =>{
         if(isNaN(amt)){
             return null;
         }
-        setAmount(amt);
+        !amt ? setAmount(""): setAmount(amt);
     }
 
     return (
@@ -81,7 +81,7 @@ const CurrencyCunverter = () =>{
                     <option value="ZAR">ZAR - South African Rand</option>
                 </select>
                 </div>
-                {calCulatedAmount && <p>{amount}  {fromCountries} = {calCulatedAmount} {toCountries}</p>}
+                {calCulatedAmount && amount && <p>{amount}  {fromCountries} = {calCulatedAmount} {toCountries}</p>}
             </div>
         </div>
     )
