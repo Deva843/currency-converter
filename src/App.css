@@ -26,12 +26,16 @@
 h1{
     text-align: center;
     font-weight: 600;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    /* border-bottom: 3px dotted rgb(241, 187, 187); */
+    
 }
 p{
     text-align: center;
     border-top: 3px dotted rgb(241, 187, 187);
     border-bottom: 3px dotted rgb(241, 187, 187);
-    padding:3px 0;
+    padding:5px 0;
 }
 input{
     width: 98%;
